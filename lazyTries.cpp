@@ -9,6 +9,7 @@ struct trie
 	int isword;
 
 };
+// function to create a new node
 trie* createnode()
 {
 	trie* nn=new trie;
